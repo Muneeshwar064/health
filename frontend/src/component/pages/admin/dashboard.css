@@ -1,0 +1,42 @@
+.background-patient-Image {
+    background-image: url('../../../assets/clinet_image_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Set the height to fill the viewport */
+    height: 100vh;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* patientdetail  */
+.sizeFixedCard {
+    height: calc(100vh - 150px) !important;
+    overflow-y: auto !important;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Three columns with equal width */
+    gap: 10px;
+    /* Gap between grid items */
+}
+
+.grid-item {
+    background-color: #eee;
+    /* padding: 20px; */
+    border: 1px solid #ccc;
+}

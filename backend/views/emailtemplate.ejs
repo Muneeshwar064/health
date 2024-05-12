@@ -1,0 +1,40 @@
+<!-- email_template.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to AEIS</title>
+  </head>
+  <body>
+    <p>Dear <%= firstName %> <%= lastName %>,</p>
+    <p>Greetings from AEIS!</p>
+
+    <p>Welcome to AEIS - Accidental Emergency Information System.</p>
+
+    <p>
+      You have successfully registered with AEIS - Accidental Emergency System.
+    </p>
+    <p>Please find your AEIS Account Details Below:</p>
+
+    <p>Username: <%= username %></p>
+
+    <p>QR code:</p>
+    <img src="<%= image %>" alt="QR code" width="500" height="600" />
+
+    <p>
+      Please find attachment QR Code/Scanner for your ready reference. Kindly
+      place QR code/Scanner in an appropriate place to access emergency
+      information.
+    </p>
+    <p>
+      Reach out to <a href="mailto:support@aeis.net">Support@aeis.net</a> in
+      case of any query.
+    </p>
+
+    <p>Many Thanks,</p>
+    <p>Best Regards,</p>
+    <p><b>Team AEIS</b></p>
+    <p><b>Accidental Emergency Information System</b></p>
+  </body>
+</html>

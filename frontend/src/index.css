@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* overflow: hidden; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.size-hospital {
+  height: calc(100vh - 120px) !important;
+  overflow-y: auto !important;
+}
+
+
+.dropdown {
+
+  button,
+  button:hover {
+    background: transparent;
+    border: none;
+  }
+
+  .dropdown-menu {
+    margin-top: 18px !important;
+    background: whitesmoke !important;
+
+    a:hover {
+      border-left: 3px solid blue !important;
+    }
+
+  }
+
+}
+
+.sizeReducer {
+  height: calc(100vh - 71px) !important;
+}
+
+
+.absolute-container {
+  position: relative;
+}
+
+.absolute-child {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.reportCardSlice{
+  width: 100% !important;
+  overflow: hidden !important;
+  overflow-x: scroll ;
+  @media ( max-width: 500px){
+    overflow-x: scroll !important;
+}
+}
