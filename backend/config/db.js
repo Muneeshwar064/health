@@ -13,10 +13,7 @@ const options = {
 };
 const connectDB = async () => {
   try {
-    const connection = await mongoose.connect(
-      "mongodb://localhost:27017/",
-      options
-    );
+    const connection = await mongoose.connect(process.env.DB_HOST_URL, options);
     console.log(
       `Mongoose connected: ${connection.connection.host}`.cyan.underline
     );
